@@ -1,7 +1,7 @@
 {
-  "name": "basic-application-boilerplate",
+  "name": "ET_Game_Test",
   "version": "0.1.0",
-  "description": "base application meant as a starting place for personal projects",
+  "description": "Just messn bro",
   "main": "app.js",
   "scripts": {
     "test": "grunt test",

@@ -3,9 +3,20 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>{{ title }}</title>
+		<title>Test Pixi</title>
 		<link rel="stylesheet" type="text/css" href="/css/styles.css" />
-		<script data-main="./js/main.js" src="./vendor/require.js"></script>
+
+		<script src="./vendor/jquery.js"></script>
+		<script src="./vendor/pixi/bin/pixi.dev.js"></script>
+		<script data-main="./js/main.js" src="./js/main.js"></script>
+		<title>pixi.js example 1</title>
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				background-color: #000000;
+			}
+		</style>
 	</head>
 	<body>
 		{{{ body }}}
